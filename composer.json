@@ -1,20 +1,16 @@
 {
-    "name": "laravelcollective/html",
+    "name": "chamnab/html",
     "description": "HTML and Form Builders for the Laravel Framework",
     "license": "MIT",
-    "homepage": "https://laravelcollective.com",
+    "homepage": "https://wintech.com.kh",
     "support": {
-        "issues": "https://github.com/LaravelCollective/html/issues",
-        "source": "https://github.com/LaravelCollective/html"
+        "issues": "https://github.com/CHAMN4B/html/issues",
+        "source": "https://github.com/CHAMN4B/html"
     },
     "authors": [
         {
-            "name": "Adam Engebretson",
-            "email": "adam@laravelcollective.com"
-        },
-        {
-            "name": "Taylor Otwell",
-            "email": "taylorotwell@gmail.com"
+            "name": "Info",
+            "email": "info@wintech.com.kh"
         }
     ],
     "require": {
@@ -32,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Collective\\Html\\": "src/"
+            "Html\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -44,11 +40,11 @@
         },
         "laravel": {
             "providers": [
-                "Collective\\Html\\HtmlServiceProvider"
+                "Html\\HtmlServiceProvider"
             ],
             "aliases": {
-                "Form": "Collective\\Html\\FormFacade",
-                "Html": "Collective\\Html\\HtmlFacade"
+                "Form": "Html\\FormFacade",
+                "Html": "Html\\HtmlFacade"
             }
         }
     },
