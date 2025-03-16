@@ -9,8 +9,8 @@
     },
     "authors": [
         {
-            "name": "Info",
-            "email": "info@wintech.com.kh"
+            "name": "CHAMN4B",
+            "email": "dev@wintech.com.kh"
         }
     ],
     "require": {
@@ -36,7 +36,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "6.x-dev"
+            "dev-master": "1.x-dev"
         },
         "laravel": {
             "providers": [
@@ -48,6 +48,5 @@
             }
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "minimum-stability": "dev"
 }
