@@ -1,7 +1,8 @@
 {
-    "name": "chamnab/html-form",
+    "name": "chamnab/html",
     "description": "HTML and Form Builders for the Laravel Framework",
     "license": "MIT",
+    "abandoned": false,
     "homepage": "https://wintech.com.kh",
     "support": {
         "issues": "https://github.com/CHAMN4B/html/issues",
